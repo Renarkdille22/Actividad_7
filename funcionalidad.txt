@@ -1,0 +1,12 @@
+La Rama Feature en Git: 
+La rama feature en Git es un tipo de rama auxiliar que los desarrolladores usan para trabajar en nuevas funcionalidades, características o requisitos de un proyecto de forma aislada.
+
+¿Qué es y cómo funciona?
+Propósito: Sirve como un espacio seguro para desarrollar una nueva característica sin afectar el código principal (generalmente la rama develop) del proyecto. Esto evita conflictos y permite a otros desarrolladores seguir trabajando sin interrupciones.
+Creación: Se crea una rama feature cada vez que se inicia una nueva funcionalidad. Por ejemplo, si vas a añadir un botón de "iniciar sesión", crearías una rama específica para esa tarea.
+Aislamiento: Cada característica se desarrolla en su propia rama feature, lo que asegura que los cambios de una función no interfieran con el desarrollo de otras.
+Ciclo de Vida: Las ramas feature tienen un inicio y un fin. Una vez que la característica está completa y probada, se fusiona (merge) con la rama develop (o la rama principal de integración), y luego la rama feature suele desaparecer, ya que ha cumplido su propósito.
+Utilidad: Son muy comunes y útiles en el flujo de trabajo de Git (gitflow) porque permiten el desarrollo paralelo de múltiples características por diferentes desarrolladores, mejorando la colaboración y la estabilidad del código base.
+Referencias:
+Atlassian. (s. f.-b). Flujo de trabajo de ramas de función en Git | Atlassian Git Tutorial. https://www.atlassian.com/es/git/tutorials/comparing-workflows/feature-branch-workflow
+Mallón, X. (2024, 24 abril). ¿Qué es la rama feature en Git? | KeepCoding Bootcamps. KeepCoding Bootcamps. https://keepcoding.io/blog/que-es-la-rama-feature-en-git/
